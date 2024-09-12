@@ -20,7 +20,7 @@ Script `index.py` digunakan untuk mengirim pesan secara otomatis menggunakan mod
 3. **Memilih Opsi**
     - Setelah menjalankan script, akan muncul sebuah GUI dengan pilihan antara "File" atau "Statis" seperti gambar berikut :
     
-    <img src="menu_gui.png" alt="Menu GUI" width="600" height="175">
+    ![Menu GUI](https://github.com/willyamk/AutoGuiBot/raw/main/images/menu_gui.png)
 
    4. **Menggunakan Opsi "File"**
        - Jika memilih opsi "File", script akan membuka File Explorer.
@@ -39,11 +39,11 @@ Script `index.py` digunakan untuk mengirim pesan secara otomatis menggunakan mod
 5. **Menggunakan Opsi "Statis"**
     - Jika memilih opsi "Statis", Anda diminta untuk memasukkan pesan yang ingin dikirim seperti gambar berikut :
     
-    <img src="statis_message.png" alt="Pesan Statis" width="500" height="200">
+    ![Pesan Statis](https://github.com/willyamk/AutoGuiBot/raw/main/images/statis_message.png)
     
     - Selanjutnya, masukkan jumlah pesan yang ingin dikirim seperti gambar berikut :
     
-    <img src="statis_message_loop.png" alt="Jumlah Pesan" width="500" height="200">
+    ![Jumlah Pesan](https://github.com/willyamk/AutoGuiBot/raw/main/images/statis_message_loop.png)
     
     - Pastikan untuk membiarkan kursor Anda aktif di kolom input chat yang dituju.
     - Klik "OK" dan script akan mengeksekusi pesan yang telah diinputkan sebelumnya sebanyak yang diminta.
