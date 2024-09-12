@@ -20,7 +20,7 @@ The `index.py` script is used to send messages automatically using the `pyautogu
 3. **Choosing Options**
     - After running the script, a GUI will appear with options between "File" or "Static," as shown in the following image:
 
-    ![GUI Menu](https://github.com/willyamk/AutoGuiBot/blob/main/menu_gui.png)
+    ![GUI Menu](https://raw.githubusercontent.com/willyamk/AutoGuiBot/main/menu_gui.png)
 
 4. **Using the "File" Option**
     - If you choose the "File" option, the script will open File Explorer.
@@ -39,11 +39,11 @@ The `index.py` script is used to send messages automatically using the `pyautogu
 5. **Using the "Static" Option**
     - If you choose the "Static" option, you will be prompted to enter the message you want to send, as shown in the following image:
 
-    ![Static Message](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message.png)
+    ![Static Message](https://raw.githubusercontent.com/willyamk/AutoGuiBot/main/statis_message.png)
 
     - Next, input the number of messages you want to send, as shown in the following image:
 
-    ![Message Count](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message_loop.png)
+    ![Message Count](https://raw.githubusercontent.com/willyamk/AutoGuiBot/main/statis_message_loop.png)
 
     - Ensure your cursor is active in the targeted chat input field.
     - Click "OK" and the script will send the message as many times as specified.
