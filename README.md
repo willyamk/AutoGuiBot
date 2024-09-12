@@ -1,58 +1,58 @@
-## Panduan Penggunaan Script AutoGuiBot
+## Usage Guide for AutoGuiBot Script
 
-### Deskripsi
-Script `index.py` digunakan untuk mengirim pesan secara otomatis menggunakan modul `pyautogui`. Panduan penggunaan berikut akan menjelaskan langkah-langkah untuk menggunakan script ini.
+### Description
+The `index.py` script is used to send messages automatically using the `pyautogui` module. The following usage guide explains the steps to use this script.
 
-### Langkah-langkah
+### Steps
 
-1. **Instalasi Dependensi**
-    - Pastikan Anda telah menginstal modul `pyautogui` dan `easygui`.
-    - Jika belum, instal modul tersebut menggunakan perintah:
+1. **Dependency Installation**
+    - Ensure you have installed the `pyautogui` and `easygui` modules.
+    - If not, install them using the following commands:
         ```
         pip install pyautogui
         pip install easygui
         ```
 
-2. **Menjalankan Script**
-    - Buka terminal atau command prompt.
-    - Gunakan perintah `python index.py` untuk menjalankan script.
+2. **Running the Script**
+    - Open a terminal or command prompt.
+    - Run the script with the command `python index.py`.
 
-3. **Memilih Opsi**
-    - Setelah menjalankan script, akan muncul sebuah GUI dengan pilihan antara "File" atau "Statis" seperti gambar berikut :
-    
-    ![Menu GUI](https://github.com/willyamk/AutoGuiBot/blob/main/menu_gui.png)
+3. **Choosing Options**
+    - After running the script, a GUI will appear with options between "File" or "Static," as shown in the following image:
 
-   4. **Menggunakan Opsi "File"**
-       - Jika memilih opsi "File", script akan membuka File Explorer.
-       - Pilih file dengan format `.txt` yang berisi pesan-pesan yang ingin dikirim dengan contoh data seperti berikut :
-       - ``` 
-         test 1
-         test 2
-         test 3
-         test 4
-         test 5
-         ```
-         > **Peringatan:** Program akan mengeksekusi data per baris yang dienter!
-       - Pastikan untuk membiarkan kursor Anda aktif di kolom input chat yang dituju.
-       - Klik "OK" dan script akan mengeksekusi pesan-pesan dalam file secara berurutan.
+    ![GUI Menu](https://github.com/willyamk/AutoGuiBot/blob/main/menu_gui.png)
 
-5. **Menggunakan Opsi "Statis"**
-    - Jika memilih opsi "Statis", Anda diminta untuk memasukkan pesan yang ingin dikirim seperti gambar berikut :
-    
-    ![Pesan Statis](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message.png)
-    
-    - Selanjutnya, masukkan jumlah pesan yang ingin dikirim seperti gambar berikut :
-    
-    ![Jumlah Pesan](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message_loop.png)
-    
-    - Pastikan untuk membiarkan kursor Anda aktif di kolom input chat yang dituju.
-    - Klik "OK" dan script akan mengeksekusi pesan yang telah diinputkan sebelumnya sebanyak yang diminta.
+4. **Using the "File" Option**
+    - If you choose the "File" option, the script will open File Explorer.
+    - Select a `.txt` file containing the messages you want to send, with sample data like the following:
+       ```
+       test 1
+       test 2
+       test 3
+       test 4
+       test 5
+       ```
+       > **Warning:** The program will execute the data line by line!
+    - Make sure to keep your cursor active in the targeted chat input field.
+    - Click "OK" and the script will send the messages in the file sequentially.
 
-6. **Catatan Penting**
-    - Pastikan untuk membiarkan kursor Anda aktif di kolom input chat yang dituju sebelum menekan "OK" pada GUI.
-    - Untuk opsi "File", pastikan file `.txt` yang dipilih berisi pesan-pesan yang akan dikirimkan per baris.
+5. **Using the "Static" Option**
+    - If you choose the "Static" option, you will be prompted to enter the message you want to send, as shown in the following image:
 
-### Gambaran Script
-Script `index.py` mengimport modul `pyautogui`, `time`, dan `easygui`, dan mendefinisikan kelas `AutoGuiBot` serta fungsi-fungsi untuk menjalankan bot dan mendapatkan pesan dari file teks. Fungsi utama `main()` menampilkan GUI untuk memilih opsi "File" atau "Statis", dan sesuai dengan pilihan pengguna, mengambil pesan dari file atau dari input pengguna. Setelah itu, bot akan dijalankan untuk mengirimkan pesan-pesan tersebut secara otomatis.
+    ![Static Message](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message.png)
 
-Dengan mengikuti langkah-langkah di atas, Anda dapat menggunakan script ini untuk mengirim pesan secara otomatis melalui GUI yang disediakan.
+    - Next, input the number of messages you want to send, as shown in the following image:
+
+    ![Message Count](https://github.com/willyamk/AutoGuiBot/blob/main/statis_message_loop.png)
+
+    - Ensure your cursor is active in the targeted chat input field.
+    - Click "OK" and the script will send the message as many times as specified.
+
+6. **Important Notes**
+    - Ensure your cursor is active in the targeted chat input field before clicking "OK" in the GUI.
+    - For the "File" option, make sure the selected `.txt` file contains messages to be sent line by line.
+
+### Script Overview
+The `index.py` script imports the `pyautogui`, `time`, and `easygui` modules and defines the `AutoGuiBot` class and functions to run the bot and retrieve messages from a text file. The main `main()` function displays a GUI to select between the "File" or "Static" options, and based on the user's choice, retrieves messages from a file or user input. The bot then sends the messages automatically.
+
+By following the steps above, you can use this script to send messages automatically through the provided GUI.
